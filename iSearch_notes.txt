@@ -1,0 +1,31 @@
+Configure the python interpreter in PyCharm
+
+Install requirements.txt
+	pip install -r requirements.txt
+
+pip install sentence-transformers pandas qdrant-client loguru
+
+pip install openpyxl
+
+Install in python console
+
+import nltk
+nltk.download('punkt')
+
+Configure the tesseract_cmd variable in generate_ocr_csv.py
+
+Configure the poppler_path variable in generate_ocr_csv.py
+
+D:/Govind/Official/Projects/MSF iSearch/poppler-23.01.0/Library/bin
+
+Updated the excel_file variable in text_searcher.py
+
+Run the test in text_searcher.py and confirm the search works fine
+
+Run the 
+	create_collection.py
+	generate_ocr_csv.py (will take around 30-40mins)
+	services.py
+
+
+
