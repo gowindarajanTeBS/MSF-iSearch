@@ -3,7 +3,7 @@ import csv
 import pandas as pd
 from nltk import tokenize
 
-excel_file = "D:\Govind\Official\Projects\MSF iSearch\MSF-iSearch\db_data\output.xlsx"
+excel_file = "D:\Govind\Official\Projects\MSF\iSearch\db_data\output.xlsx"
 
 def extract_sentence_index(input_string, excel_file=excel_file):
     # df = pd.read_csv(excel_file)
@@ -19,12 +19,12 @@ def extract_sentence_index(input_string, excel_file=excel_file):
     return None
 
 
-# # tests
-# input_string = "OAuth"
-# # excel_file = "file.xlsx"
-# sentence = extract_sentence_index(input_string, excel_file)
-# if sentence:
-#     print(f"The sentence is: {sentence}")
-# else:
-#     print("The input string was not found in the Excel file.")
+# tests
+input_string = "OAuth"
+# excel_file = "file.xlsx"
+sentence = extract_sentence_index(input_string, excel_file)
+if sentence:
+    print(f"The sentence is: {sentence}")
+else:
+    print("The input string was not found in the Excel file.")
 

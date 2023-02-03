@@ -35,7 +35,7 @@ for index, row in df.iterrows():
     file_path = f"files/{file_name}"
 
     # Convert the PDF file to a list of images
-    images = convert_from_path(file_path,poppler_path="D:/Govind/Official/Projects/MSF iSearch/poppler-23.01.0/Library/bin")
+    images = convert_from_path(file_path,poppler_path="D:/Govind/Official/Projects/MSF/poppler-23.01.0/Library/bin")
 
     # Initialize an empty string to store the raw text
     raw_text = ""
