@@ -24,7 +24,7 @@ Run the test in text_searcher.py and confirm the search works fine
 
 Run the 
 	create_collection.py
-	generate_ocr_csv.py (will take around 30-40mins)
+	generate_ocr_csv.py (will take around 30 - 40mins)
 	services.py
 
 
